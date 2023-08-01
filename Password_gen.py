@@ -25,8 +25,6 @@ for k in range(nr_symbols):
   sym_part=sym_part+str(symbols[int(ind2)])
 password=let_part+sym_part+num_part
 print(password)
-s_shuffled = ''.join(random.sample(password, len(password)))
-print(s_shuffled)
   
 
 #Hard Level - Order of characters randomised:
