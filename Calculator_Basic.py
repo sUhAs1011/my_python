@@ -27,6 +27,8 @@ def mul(n1,n2):
   return n1*n2
 def div(n1,n2):
   return round(n1/n2,3)
+def power(n1,n2):
+  return n1**n2
 
 #Callback
 def work(n1,n2,x):
